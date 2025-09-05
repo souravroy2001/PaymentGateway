@@ -1,0 +1,69 @@
+$ next dev --turbopack
+   ▲ Next.js 15.5.2 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://169.254.0.21:3000
+
+ ✓ Starting...
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+ ✓ Ready in 2.2s
+ ○ Compiling / ...
+ ✓ Compiled / in 8.7s
+ ⨯ ./app/globals.css:4592:8
+Parsing CSS source code failed
+[0m [90m 4590 |[39m   display[33m:[39m none[33m;[39m
+ [90m 4591 |[39m }
+[31m[1m>[22m[39m[90m 4592 |[39m [33m@[39m[36mimport[39m url([32m'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap'[39m)[33m;[39m
+ [90m      |[39m        [31m[1m^[22m[39m
+ [90m 4593 |[39m body {
+ [90m 4594 |[39m   font[33m-[39mfamily[33m:[39m [32m'Inter'[39m[33m,[39m sans[33m-[39mserif[33m;[39m
+ [90m 4595 |[39m   font[33m-[39mweight[33m:[39m [35m400[39m[33m;[39m[0m
+
+@import rules must precede all rules aside from @charset and @layer statements
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+
+ ⨯ ./app/globals.css:4592:8
+Parsing CSS source code failed
+[0m [90m 4590 |[39m   display[33m:[39m none[33m;[39m
+ [90m 4591 |[39m }
+[31m[1m>[22m[39m[90m 4592 |[39m [33m@[39m[36mimport[39m url([32m'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap'[39m)[33m;[39m
+ [90m      |[39m        [31m[1m^[22m[39m
+ [90m 4593 |[39m body {
+ [90m 4594 |[39m   font[33m-[39mfamily[33m:[39m [32m'Inter'[39m[33m,[39m sans[33m-[39mserif[33m;[39m
+ [90m 4595 |[39m   font[33m-[39mweight[33m:[39m [35m400[39m[33m;[39m[0m
+
+@import rules must precede all rules aside from @charset and @layer statements
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 2.8s
+ GET / 500 in 11954ms
+ GET / 500 in 6530ms
+ ⚠ Cross origin request detected from payflow-gateway.lindy.site to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 531ms
+ GET /favicon.ico 500 in 616ms
+ ✓ Compiled in 422ms
+ ✓ Compiled / in 30ms
+ GET / 200 in 717ms
+ GET / 200 in 199ms
+ GET /favicon.ico?favicon.bf3c9292.ico 200 in 512ms
+ GET / 200 in 192ms
+ GET /favicon.ico?favicon.bf3c9292.ico 200 in 483ms
+ GET / 200 in 175ms
+ GET /favicon.ico?favicon.bf3c9292.ico 200 in 269ms
+ GET / 200 in 167ms
